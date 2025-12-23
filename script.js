@@ -10,8 +10,8 @@ function dogset() {
  <img src=\"Kuma1.jpeg\" class=\"kuma\">
  <img src=\"Kuma2.jpeg\" class=\"kuma\">
  <img src=\"Kuma3.jpeg\" class=\"kuma\">
- <img src=\"Kuma4.jpeg\" class=\"kuma\">
- <img src=\"Kuma5.jpeg\" class=\"kuma\">`}else{input.value=""}
+ <img src=\"Kuma4.jpeg\" class=\"kuma1\">
+ <img src=\"Kuma5.jpeg\" class=\"kuma1\">`}else{input.value=""}
 };
 
 enter.addEventListener("click",() => dogset());
