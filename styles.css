@@ -1,7 +1,14 @@
 .cano {
     width:150px;
     height:200px;
+    margin-left:3px;
+    marign-right:3px;
 }
+.cano1 {
+    width:200px;
+    height:200px;
+    margin-left:3px;
+    margin-right:3px;
 .select {
     width:fit-content;
     margin-left:auto;
