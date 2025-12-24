@@ -27,4 +27,13 @@ function which(n) {
  <img src=\"Kuma3.jpeg\" class=\"Kuma\">
  <img src=\"Kuma4.jpeg\" class=\"Kuma1\">
  <img src=\"Kuma5.jpeg\" class=\"Kuma1\">`
-    }}
+    }else if (n=="all") {
+        photos.innerHTML=`<img src=\"Cano1.jpeg\" class=\"cano\"><img src=\"Cano2.jpeg\" class=\"cano1\"><img src=\"Cano3.jpeg\"\
+ class=\"cano\"><img src=\"Cano4.jpeg\" class=\"cano\"><img src=\"Cano5.jpeg\" class=\"cano\">
+ <img src=\"Kuma1.jpeg\" class=\"Kuma\">
+ <img src=\"Kuma2.jpeg\" class=\"Kuma\">
+ <img src=\"Kuma3.jpeg\" class=\"Kuma\">
+ <img src=\"Kuma4.jpeg\" class=\"Kuma1\">
+ <img src=\"Kuma5.jpeg\" class=\"Kuma1\">`
+    }
+    }
