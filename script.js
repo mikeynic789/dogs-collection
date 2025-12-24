@@ -16,7 +16,7 @@ function dogset() {
 };
 
 enter.addEventListener("click",() => dogset());
-function which(n) {
+function which(n) {selected.addEventListener("change",() => which(selected.value));
     if (n=="Cannoli") {
         photos.innerHTML=`<img src=\"Cano1.jpeg\" class=\"cano\"><img src=\"Cano2.jpeg\" class=\"cano1\"><img src=\"Cano3.jpeg\"\
  class=\"cano\"><img src=\"Cano4.jpeg\" class=\"cano\"><img src=\"Cano5.jpeg\" class=\"cano\">`
@@ -28,4 +28,4 @@ function which(n) {
  <img src=\"Kuma5.jpeg\" class=\"Kuma1\">`
     }
 
-selected.addEventListener("change",() => which(selected.value));
+
