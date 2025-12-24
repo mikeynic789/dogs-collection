@@ -6,6 +6,7 @@ function dogset() {
     if (input.value=="holycannoli") {
         select.innerHTML=`<select class=\"selector\"><option class=\"all\">all</option><option class=\"hershey\">Hershey</option><option class=\"cannoli\">Cannoli</option><option class=\"kuma\">Kuma</option></select>`;
         selected=document.querySelector(".selector");
+        selected.addEventListener("change",() => which(selected.value));
         photos.innerHTML=`<img src=\"Cano1.jpeg\" class=\"cano\"><img src=\"Cano2.jpeg\" class=\"cano1\"><img src=\"Cano3.jpeg\"\
  class=\"cano\"><img src=\"Cano4.jpeg\" class=\"cano\"><img src=\"Cano5.jpeg\" class=\"cano\">
  <img src=\"Kuma1.jpeg\" class=\"Kuma\">
@@ -16,7 +17,7 @@ function dogset() {
 };
 
 enter.addEventListener("click",() => dogset());
-function which(n) {selected.addEventListener("change",() => which(selected.value));
+function which(n) {
     if (n=="Cannoli") {
         photos.innerHTML=`<img src=\"Cano1.jpeg\" class=\"cano\"><img src=\"Cano2.jpeg\" class=\"cano1\"><img src=\"Cano3.jpeg\"\
  class=\"cano\"><img src=\"Cano4.jpeg\" class=\"cano\"><img src=\"Cano5.jpeg\" class=\"cano\">`
