@@ -35,3 +35,8 @@
 .whole {
     background-color:rgba(125,125,0,50%);
 }
+.big {
+    width:fit-content;
+    margin-left:auto;
+    margin-right:auto;
+}
