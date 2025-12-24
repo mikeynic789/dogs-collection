@@ -36,4 +36,4 @@ function which(n) {
  <img src=\"Kuma4.jpeg\" class=\"Kuma1\">
  <img src=\"Kuma5.jpeg\" class=\"Kuma1\">`
     }
-    }
+}
