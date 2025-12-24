@@ -26,6 +26,4 @@ function which(n) {selected.addEventListener("change",() => which(selected.value
  <img src=\"Kuma3.jpeg\" class=\"Kuma\">
  <img src=\"Kuma4.jpeg\" class=\"Kuma1\">
  <img src=\"Kuma5.jpeg\" class=\"Kuma1\">`
-    }
-
-
+    }}
