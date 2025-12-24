@@ -33,7 +33,7 @@
     margin-right:auto;
 }
 .whole {
-    background-color:rgba(175,125,0,50%);
+    background-color:rgba(175,125,0,0.5);
 }
 .big {
     width:fit-content;
