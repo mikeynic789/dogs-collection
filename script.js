@@ -5,7 +5,7 @@ const photos=document.querySelector(".photo-container")
 function dogset() {
     if (input.value=="holycannoli") {
         select.innerHTML=`<select class=\"selector\"><option class=\"all\">all</option><option class=\"hershey\">Hershey</option><option class=\"cannoli\">Cannoli</option><option class=\"kuma\">Kuma</option></select>`;
-        selected=document.querySelector(".selector");
+        const selected=document.querySelector(".selector");
         selected.addEventListener("change",() => which(selected.value));
         photos.innerHTML=`<img src=\"Cano1.jpeg\" class=\"cano\"><img src=\"Cano2.jpeg\" class=\"cano1\"><img src=\"Cano3.jpeg\"\
  class=\"cano\"><img src=\"Cano4.jpeg\" class=\"cano\"><img src=\"Cano5.jpeg\" class=\"cano\">
@@ -35,7 +35,7 @@ function which(n) {
  <img src=\"Kuma3.jpeg\" class=\"Kuma\">
  <img src=\"Kuma4.jpeg\" class=\"Kuma1\">
  <img src=\"Kuma5.jpeg\" class=\"Kuma1\">`
-    } else if (n=="Hershey") {`<img src=\"Hershey1.jpeg\" class=\"Hershey\">
+    } else if (n=="Hershey") {photos.innerHTML=`<img src=\"Hershey1.jpeg\" class=\"Hershey\">
  <img src=\"Hershey2.jpeg\" class=\"Hershey\">
  <img src=\"Hershey3.jpeg\" class=\"Hershey\">
  <img src=\"Hershey4.jpeg\" class=\"Hershey\">
