@@ -35,5 +35,9 @@ function which(n) {
  <img src=\"Kuma3.jpeg\" class=\"Kuma\">
  <img src=\"Kuma4.jpeg\" class=\"Kuma1\">
  <img src=\"Kuma5.jpeg\" class=\"Kuma1\">`
-    }
+    } else if (n=="Hershey") {`<img src=\"Hershey1.jpeg\" class=\"Hershey\">
+ <img src=\"Hershey2.jpeg\" class=\"Hershey\">
+ <img src=\"Hershey3.jpeg\" class=\"Hershey\">
+ <img src=\"Hershey4.jpeg\" class=\"Hershey\">
+ <img src=\"Hershey5.jpeg\" class=\"Hershey\">`
 }
